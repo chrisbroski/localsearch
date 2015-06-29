@@ -1,0 +1,26 @@
+<header>
+<div>
+<p>68°</p>
+<h5>8:29</h5>
+<p>68°</p>
+</div>
+
+<div id="subhead">
+<p onclick="window.history.back()">&lt;</p>
+<h5>Local Search</h5>
+<p><span>×</span></p>
+</div>
+
+<div id="input">
+<p></p>
+<h5>
+<div>🎤</div>
+<form method="get" action="search">
+<input id="search" name="q" placeholder="Keyword, address, phone# or intersection">
+</form>
+<div>⌫</div>
+</h5>
+<p></p>
+</div>
+
+</header>

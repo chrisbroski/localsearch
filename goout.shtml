@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>LocalSearch</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+
+<body>
+
+<!--# include file="head.pht" -->
+
+<article>
+<button type="button">Dance/Nightclubs</button>
+<button type="button">Theater/Music/Culture</button>
+<button type="button">Cinema</button>
+<button type="button">Casino</button>
+</article>
+
+<!--# include file="foot.pht" -->
+
+<script>
+search.value = 'Going Out';
+</script>

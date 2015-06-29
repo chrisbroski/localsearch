@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>LocalSearch</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+
+<body>
+
+<!--# include file="head.pht" -->
+
+<article id="results">
+<table>
+<thead>
+<tr>
+<td>Name
+<td>Rating
+<td>Distance
+<tbody>
+<tr>
+<th>
+<h5>BP Service Station</h5>
+<p>2001 N Opdyke Rd, Auburn Hills...
+<td>★★★✰✰
+<td>1.5mi ↑
+
+<tr>
+<th>
+<h5>Citigo</h5>
+<p>3985 W Auburn Rd, Rochester...
+<td>★★★✰✰
+<td>1.0mi ↖
+</table>
+<!--<button type="button" onclick="location='eat'"><span>🍴</span>Eat &amp; Drink</button>
+<button type="button" onclick="location='goout'"><span>🎭</span>Going Out</button>
+<button type="button" onclick="location='business'"><span>🏢</span>Business &amp; Service</button>
+<button type="button" onclick="location='accommodate'"><span>🛀</span>Accommodation</button>
+<button type="button" onclick="location='facilities'"><span>🚻</span>Facilities</button>
+<button type="button" onclick="location='sites'"><span>📷</span>Sites &amp; Attractions</button>
+<button type="button" onclick="location='shop'"><span>💰</span>Shopping</button>-->
+</article>
+
+<!--# include file="foot.pht" -->
+
+<script>
+function Q$(fldNm) {
+	var oRe = new RegExp("[\\?&]"+fldNm+"=([^&#]*)","i");
+	var fldVal = oRe.exec(parent.location.search);
+	return (fldVal) ? unescape(fldVal[1]) : "";
+}
+
+input.style.display = 'none';
+document.querySelector('#subhead h5').innerHTML = 'Search&gt;' + Q$('q');
+</script>

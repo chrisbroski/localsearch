@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>LocalSearch</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+
+<body>
+
+<!--# include file="head.pht" -->
+
+<article class="restaurant">
+<div id="prevPage" onclick="location='restaurants1'">&lt;</div>
+<button type="button">Mexican</button>
+<button type="button">Middle Eastern</button>
+<button type="button">Other</button>
+<button type="button">Pizza</button>
+<button type="button">Sandwiches</button>
+<button type="button">Seafood</button>
+<button type="button">Steak</button>
+<button type="button">Thai</button>
+<button type="button">Vegetarian</button>
+</article>
+
+<!--# include file="foot.pht" -->
+
+<script>
+search.value = 'Eat & Drink > Restaurants';
+</script>

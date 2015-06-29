@@ -1,0 +1,50 @@
+html {padding: 0; font-family: droid sans, sans-serif; height: 100%; }
+* {box-sizing: border-box; }
+
+body {margin: 0 auto; position: relative; max-width: 600px; height: 100%; }
+form {padding: 2px 0 0; float: left; }
+input:focus, button:focus {outline: 0 none; }
+article {text-align: center; padding-top: 5px; border-right: 1px solid #000; border-left: 1px solid #000; height: 75%; }
+article > *:first-child {margin-top: 0; }
+article p {line-height: 1.4em; font-size: 17px; }
+article li {margin-bottom: 0.3em; line-height: 1.4em; font-size: 16px; }
+article button {background: #fff; border: 1px solid #000; padding: 10px; width: 220px; margin: 3px; cursor: pointer; }
+#home button {text-align: left; }
+article button span {color: #bbb; padding-right: 10px; font-weight: bold; }
+article.restaurant button {width: 140px; margin: 3px 2px; }
+
+header, nav {display: table; border-collapse: collapse; background: #000; color: #fff; border-color: #000; border-style: solid; border-width: 1px 1px 0; border-bottom: 0 none; width: 100%; }
+header > div {display: table-row; }
+header > div > p, header > div > h5 {display: table-cell; font-weight: normal; font-size: 14px; text-align: center; padding: 1% 0 0 1%; border: 1px solid #000; }
+header > div > p {width: 10%; }
+header > div > h5 {width: 72%; padding-right: 1%; }
+
+#subhead, #input {background: #fff; color: #888; }
+#subhead p span {background: red; color: #fff; border-radius: 15px; font-weight: bold; padding: 1px 6px; }
+#subhead p, #subhead h5 {padding-bottom: 2px; font-size: 16px; }
+#subhead p:first-child {font-size: 24px; font-weight: bold; padding: 0; cursor: pointer; }
+#subhead h5 {text-align: left; }
+
+#input p, #input h5 {border-bottom: 0 none; padding: 0; }
+#input p {border-bottom: 1px solid #fff; }
+#input h5 {border: 1px solid #000; /*border-left: 1px solid #000; border-right: 1px solid #000; */}
+header > #input  > h5 > div {width: 25px; float: right; background: #000; color: #fff; padding: 3px; height: 25px; }
+header > #input  > h5 > div:first-child {float: left; }
+header > #input  > h5  input {padding: 2px; width: 330px; border: 1px solid transparent; height: 20px; }
+
+nav {position: fixed; left: 50%; margin-left: -50%; bottom: 0; table-layout: fixed; }
+nav ul {display: table-row; }
+nav ul li {display: table-cell; font-size: 12px; padding: 40px 0.5% 0.5%; background: transparent url(navicon.png) no-repeat 50% 5px; text-align: center; }
+
+#nextPage, #prevPage {width: 27px; height: 40px; border: 1px solid #000; cursor: pointer; position: absolute; top: 130px; padding-top: 20px; }
+#nextPage {right: 2px; }
+#prevPage {left: 2px; }
+
+#results {padding-top: 0; }
+#results table {border-collapse: collapse; width: 100%; }
+#results table thead td {border-bottom: 1px solid #000; border-left: 1px solid #000; }
+#results table thead td:first-child {border-left: 0 none; }
+#results table tbody tr {background: #888; color: #fff; border-bottom: 1px solid #fff; }
+#results table tbody th {font-weight: normal; text-align: left; }
+#results table tbody th h5 {margin: 0; font-size: 16px; }
+#results table tbody th p {margin: 0; font-size: 12px; }

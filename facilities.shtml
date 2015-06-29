@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<title>LocalSearch</title>
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+
+<body>
+
+<!--# include file="head.pht" -->
+
+<article>
+<button type="button">Hospital/Healthcare</button><br>
+<button type="button">Public Restroom/Rest Areas</button><br>
+<button type="button">Parking</button><br>
+</article>
+
+<!--# include file="foot.pht" -->
+
+<script>
+search.value = 'Facilities';
+</script>
