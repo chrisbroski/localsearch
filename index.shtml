@@ -15,7 +15,7 @@
 
 <body>
 
-<!--# include file="head.pht" -->
+<!--# include virtual="./head.pht" -->
 
 <article id="home">
 <button type="button" onclick="location='eat'"><span>🍴</span>Eat &amp; Drink</button>
